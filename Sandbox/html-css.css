@@ -1,0 +1,30 @@
+*{
+   box-sizing:  border-box;
+}
+
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+body{
+ background-color: red;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-size: 1em;
+    font-family: ariel, "ariel thin", sans-serif;
+}
+#wrapper{
+    background-color: #fff;
+    width: 100%;
+}
+
+#hi-lo{
+    list-style: none;
+}
+#hi-lo>li{
+
+    display: inline;
+    width: 33%;
+}
