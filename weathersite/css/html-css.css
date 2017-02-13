@@ -16,7 +16,6 @@ body{
     font-family: ariel, "ariel thin", sans-serif;
 }
 #wrapper{
-    background-color:
     width: 100%;
 }
 
@@ -35,3 +34,28 @@ body{
     text-align: center;
 
 }
+
+#hourlytemperature{
+    display: none;
+}
+
+/*Media Query for Medium Size screens*/
+@media screen and (min-width: 768px){
+    #hourlytemperature{
+        display: block;
+
+    }
+
+}
+
+
+
+/*Media Query for Large Size screens*/
+@media screen and (min-width: 1024px){
+    #hourlytemperature{
+        display: block;
+
+    }
+
+}
+
