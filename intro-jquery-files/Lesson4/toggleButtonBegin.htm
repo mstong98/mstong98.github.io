@@ -2,24 +2,27 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<title>ToggleButton</title>
-	<link rel="stylesheet" href="css/toggleBtn.css">
-	<script src="js/jquery-3.0.0.min.js"></script>
-	<script>
-		$(function () {
-			// jQuery Code goes here
+    <meta charset="UTF-8">
+    <title>ToggleButton</title>
+    <link rel="stylesheet" href="css/toggleBtn.css">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script>
+        $(function () {
+            // jQuery Code goes here
+            $('.toggleBtn').click(function(){
+                $(this).toggleClass('toggleOn');
+            })
 
-		})
-	</script>
+        })
+    </script>
 </head>
 
 <body>
-	<div class="container">
-		<a href="#" class="toggleBtn">Navigation</a>
-		<a href="#" class="toggleBtn">Fuel Monitor</a>
-		<a href="#" class="toggleBtn">Battery Monitor</a>
-	</div>
+    <div class="container">
+        <a href="#" class="toggleBtn">Navigation</a>
+        <a href="#" class="toggleBtn">Fuel Monitor</a>
+        <a href="#" class="toggleBtn">Battery Monitor</a>
+    </div>
 
 </body>
 
