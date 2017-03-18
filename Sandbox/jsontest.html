@@ -5,26 +5,7 @@
     <meta charset="utf-8">
     <title>JSON Test</title>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script>
-        jQuery(document).ready(function ($) {
-            $.ajax({
-                url: "./weather.json",
-                dataType: "json",
-                success: function (data) {
-                    var location = data['Franklin']['City'];
-                    var temp_f = data['Franklin']['High'];
-                    alert("Current temperature in " + location + " is: " + temp_f);
-                    var locName = $('#locName');
-                    var hightemp = $('#hightemp');
-                    var something = $('#something');
-
-                    locName.text(location);
-                    hightemp.text(temp_f);
-                    something.text("Current temperature in " + location + " is: " + temp_f);
-                }
-            });
-        });
-    </script>
+    <script src="../weathersite/js/weatherdemo.js"></script>
 </head>
 
 <body>
