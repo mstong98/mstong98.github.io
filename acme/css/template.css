@@ -1,0 +1,50 @@
+body{
+    background-image: url(../images/site/background.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+}
+
+
+header{
+    background-image: url(../images/site/logo.png);
+    background-color: white;
+    width: 90%;
+    height: 150px;
+    background-repeat: no-repeat;
+    font-family: 'News Cycle', sans-serif;
+
+
+}
+
+nav{
+   background-color: #de2226;
+    width: 90%;
+    height: 150px;
+
+}
+nav ul{
+    list-style: none;
+
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+main{
+    background-color: #ffffff;
+        width: 90%;
+        height: 150px;
+    font-family: 'Pontano Sans', sans-serif;
+
+
+
+
+}
