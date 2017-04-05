@@ -1,50 +1,56 @@
-body{
+body {
     background-image: url(../images/site/background.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-
-
 }
 
-
-header{
+header {
     background-image: url(../images/site/logo.png);
     background-color: white;
     width: 90%;
     height: 150px;
     background-repeat: no-repeat;
     font-family: 'News Cycle', sans-serif;
-
-
 }
 
-nav{
-   background-color: #de2226;
+nav {
+    background-color: #de2226;
     width: 90%;
     height: 150px;
-
 }
-nav ul{
+
+nav ul {
     list-style: none;
-
-
+	display: flex;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: white;
+	margin: 5px;
 }
 
 
-main{
+
+main {
     background-color: #ffffff;
-        width: 90%;
-        height: 150px;
+    width: 90%;
+    height: 800px;
     font-family: 'Pontano Sans', sans-serif;
 
+}
 
+#mainpic {
+    background-image: url(../images/site/feature.jpg);
+    height: 500px;
+    width: 90%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
 
-
+#mainpic ul{
+    list-style: none;
+    color: #990033
 }
